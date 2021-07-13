@@ -8,7 +8,7 @@ I've provided 2 tanka environments (`working` and `broken`)
 
 `tk show` and `tk eval` work on both.
 
-`tk export` fails on the `broken` environment
+`tk export` fails on the `broken` environment without a `spec.jsn`
 
 
 ## Broken Example
@@ -45,8 +45,9 @@ Error: evaluating jsonnet: RUNTIME ERROR: Field does not exist: app
 	During evaluation	
 ```
 
-
 ## Working Example
+
+The working example has a `spec.json` unnder <https://github.com/nabadger/tanka-export-issue/tree/initial/environments/working>
 
 ```
 $ tk --version
@@ -61,3 +62,11 @@ $ tk export /tmp/working-export ./environments/working
 ```
 Loading environments/working from /tmp/tanka-export-issue/environments/working/main.jsonnet
 ```
+
+## tk v0.13.0
+
+Both versions work on `v0.13.0` with or without a `spec.json` 
+
+- Note, the order of params is different on `tk export` in this version.
+
+
