@@ -8,7 +8,7 @@ I've provided 2 tanka environments (`working` and `broken`)
 
 `tk show` and `tk eval` work on both.
 
-`tk export` fails on the `broken` environment without a `spec.jsn`
+`tk export` fails on the `broken` environment without a `spec.json`
 
 
 ## Broken Example
