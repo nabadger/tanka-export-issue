@@ -47,7 +47,7 @@ Error: evaluating jsonnet: RUNTIME ERROR: Field does not exist: app
 
 ## Working Example
 
-The working example has a `spec.json` unnder <https://github.com/nabadger/tanka-export-issue/tree/initial/environments/working>
+The working example has a `spec.json` unnder <https://github.com/nabadger/tanka-export-issue/tree/main/environments/working>
 
 ```
 $ tk --version
