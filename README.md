@@ -1,6 +1,6 @@
 # Tanka Issue
 
-`tk export` fails on tanka versions=>0.14 in some scenaros:
+`tk export` fails on tanka versions=>0.14 in some scenarios:
 
 
 I've provided 2 tanka environments (`working` and `broken`)
